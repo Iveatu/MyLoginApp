@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+
+tools:context="com.example.myloginapp.SplashShowActivity">
+
+    <ImageView
+        android:id="@+id/Logo_image"
+        android:layout_width="195dp"
+        android:layout_height="255dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/splash_image" />
+
+    <TextView
+        android:id="@+id/coyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="69dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/AuthorName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#2196F3"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/Logo_image"
+        tools:layout_editor_absoluteX="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

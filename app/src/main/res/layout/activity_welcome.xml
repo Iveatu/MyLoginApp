@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+
+    tools:context="com.example.myloginapp.WelcomeActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/edu_logos" />
+
+    <TextView
+        android:id="@+id/greeting_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/greeting_user"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:fontFamily="serif-monospace"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/smily" />
+
+
+    <Button
+        android:id="@+id/button_start_quiz"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="@string/start_quiz"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</LinearLayout>

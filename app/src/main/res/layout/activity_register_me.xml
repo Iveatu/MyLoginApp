@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+
+    tools:context="com.example.myloginapp.RegisterMeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/signUpNote"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/edu_logos" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/EmaiID"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="21dp"
+            android:background="#F3FFFFFF"
+            android:drawableStart="@drawable/email"
+            android:drawableLeft="@drawable/email"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            tools:ignore="DuplicateIds" />
+
+        <EditText
+            android:id="@+id/edit_text_password"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="21dp"
+            android:background="#ffffff"
+            android:drawableStart="@drawable/type_password"
+            android:drawableLeft="@drawable/type_password"
+            android:hint="@string/password" />
+
+
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_register_me"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="@string/sign_up"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="@string/existing_registered"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/login_view"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:background="#FF5722"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/log_me_in"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MyLoginApp</string>
+    <string name="action_settings">Settings</string>
+
+    //lines to be added are below
+    <string name="log_me_in">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="not_registered">Not Signed up?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="correct_password">Confirm Password</string>
+    <string name="existing_registered">Already Signed Up?</string>
+    <string name="greeting_user">Welcome to Edufun Quiz App!</string>
+    <string name="start_quiz">Click to Start Quiz!</string>
+    <string name="learn">Quiz Time</string>
+    <string name="my_image">Logo_image</string>
+    <string name="quiz_time">learn</string>
+    <string name="result">Great! Thank you. Version 2 will be ready soon! </string>
+    <string name="start_again">Repeat Quiz</string>
+    <string name="Exit">End Quiz</string>
+    <string name="questionView">Question</string>
+    <string name="falseN">No</string>
+    <string name="signUpNote">Sign Up For Quiz</string>
+    <string name="LogInNote">Log In For Quiz</string>
+    <string name="Heading">Quiz </string>
+    <string name="AuthorName"> From: Edufun.com</string>
+</resources>
